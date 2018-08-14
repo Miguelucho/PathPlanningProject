@@ -1,0 +1,8 @@
+prefix=/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/devel
+
+Name: official_ros
+Description: Description of official_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/devel/lib 
+Requires: 

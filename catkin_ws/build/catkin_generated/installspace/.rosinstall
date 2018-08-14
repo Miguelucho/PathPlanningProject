@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/install/setup.sh
