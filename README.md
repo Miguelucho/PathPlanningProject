@@ -25,10 +25,10 @@ $ sudo apt-get install ros-kinetic-navigation
 ```
 The ROS packages were obtained from the following repositories:
 
-https://github.com/ros-perception/slam_gmapping.git
-https://github.com/turtlebot/turtlebot.git
-https://github.com/turtlebot/turtlebot_interactions.git
-https://github.com/turtlebot/turtlebot_simulator.git
+https://github.com/ros-perception/slam_gmapping.git  
+https://github.com/turtlebot/turtlebot.git  
+https://github.com/turtlebot/turtlebot_interactions.git  
+https://github.com/turtlebot/turtlebot_simulator.git  
 
 continuing with the construction of the project:
 
@@ -46,7 +46,7 @@ The project is completely developed with the Gazebo bot named turtlebot. But at 
 
 Quickly: "The new environment has a door at the end and only this detail a little complicated the code."
 
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/2Bots.png)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/2Bots.png)
 
 ### Mini Targets
 
@@ -55,39 +55,39 @@ Quickly: "The new environment has a door at the end and only this detail a littl
 $ cd ~/src/shell_scripts
 $ ./test_slam.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Captura de pantalla de 2018-08-13 18-31-36.jpg)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-13%2018-31-36.jpg)
 
 ##### Wall Follower.
 ```bash
 $ cd ~/src/shell_scripts
 $ ./wall_follower.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Captura de pantalla de 2018-08-11 20-42-38.jpg)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-11%2020-42-38.jpg)
 
 ##### Test Navigation.
 ```bash
 $ cd ~/src/shell_scripts
 $ ./test_navigation.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Captura de pantalla de 2018-08-13 20-12-48.jpg)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-13%2020-12-48.jpg)
 
 ##### Reach Multiple Goals.
 ```bash
 $ cd ~/src/shell_scripts
 $ ./pick_objects.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Captura de pantalla de 2018-08-14 10-44-54.jpg)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-14%2010-44-54.jpg)
 
 ##### Model Virtual Objects.
 ```bash
 $ cd ~/src/shell_scripts
 $ ./add_markers.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Captura de pantalla de 2018-08-14 11-45-55.jpg)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-14%2011-45-55.jpg)
 
 ##### All Together [Home Service Robot].
 ```bash
 $ cd ~/src/shell_scripts
 $ ./home_service.sh
 ```
-![alt text](../RoboND-HomeServiceRobot/catkin_ws/img/Home.png)
+![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/c548213d54d.gif)
