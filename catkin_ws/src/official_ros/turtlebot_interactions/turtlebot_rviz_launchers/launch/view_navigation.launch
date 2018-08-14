@@ -3,5 +3,5 @@
  -->
 <launch>
   <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot_rviz_launchers)/rviz/navigation.rviz"/-->
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find official_ros)/rviz/navigation.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find official_ros)/rviz/markers.rviz"/>
 </launch>

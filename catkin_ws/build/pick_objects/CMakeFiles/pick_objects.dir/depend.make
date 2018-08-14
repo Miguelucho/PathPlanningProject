@@ -95,7 +95,6 @@ pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kineti
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
-pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/std_msgs/String.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 

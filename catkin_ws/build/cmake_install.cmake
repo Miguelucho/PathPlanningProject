@@ -119,6 +119,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/build/official_ros/cmake_install.cmake")
   include("/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/build/wall_follower/cmake_install.cmake")
+  include("/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/build/add_markers/cmake_install.cmake")
   include("/home/nvidia/workspaceROS/RoboND-HomeServiceRobot/catkin_ws/build/pick_objects/cmake_install.cmake")
 
 endif()

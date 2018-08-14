@@ -7,4 +7,5 @@
 subdirs(gtest)
 subdirs(official_ros)
 subdirs(wall_follower)
+subdirs(add_markers)
 subdirs(pick_objects)
