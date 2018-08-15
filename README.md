@@ -34,13 +34,19 @@ continuing with the construction of the project:
 
 ```bash
 $ git clone https://github.com/Miguelucho/PathPlanningProject.git
-$ cd ~/PathPlanningProjectcd/catkin_ws/src
+$ cd PathPlanningProjectcd/catkin_ws/src
 $ catkin_init_workspace
-$  cd ~/catkin_ws
+$ cd ..
 $ catkin_make
  ...  [ Wait ] ...
 $ source devel/setup.bash
 READY
+
+Note: As a precaution, check that the scripts in the src/shell_scripts 
+directory have the necessary permissions. If you do not have the permits, 
+the solution is:
+
+... / src / shell_scripts $ chmod + x.
 ```
 The project is completely developed with the Gazebo bot named turtlebot. But at the moment I am developing this project with a bot and an environment that I built. I built a bot named Uchobot, which is larger, with sensors in front of the wheels and more complex sensors than the ROS bot (Turtlebot). I also contributed a mini maze more complex than a simple U. Both elements added a significant number of new challenges and challenges for the project.
 
@@ -52,42 +58,42 @@ Quickly: "The new environment has a door at the end and only this detail a littl
 
 ##### Test SLAM.
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./test_slam.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-13%2018-31-36.jpg)
 
 ##### Wall Follower.
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./wall_follower.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-11%2020-42-38.jpg)
 
 ##### Test Navigation.
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./test_navigation.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-13%2020-12-48.jpg)
 
 ##### Reach Multiple Goals.
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./pick_objects.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-14%2010-44-54.jpg)
 
 ##### Model Virtual Objects.
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./add_markers.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/Captura%20de%20pantalla%20de%202018-08-14%2011-45-55.jpg)
 
 ##### All Together [Home Service Robot].
 ```bash
-$ cd ~/src/shell_scripts
+$ cd /src/shell_scripts
 $ ./home_service.sh
 ```
 ![alt text](https://github.com/Miguelucho/PathPlanningProject/blob/master/catkin_ws/img/c548213d54d.gif)
